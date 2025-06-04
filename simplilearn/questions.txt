@@ -1,0 +1,32 @@
+github code for simplilearn repo
+
+git add simplilearn
+git commit -m "change"
+git remote add origin https://github.com/gpraveengeek/simplilearn.git
+git push -u origin master
+
+
+--->The Differences Between - innerHTML, innerText and textContent?
+-------------The innerHTML property sets or returns the HTML content (inner HTML) of an element.
+-------------The innerText property sets or returns the text content of an element.
+-------------The textContent property sets or returns the text content of the specified node, and all its descendants.
+
+JAVASCRIPT:
+
+---> what is class and object?
+-------------Classes are templates for Objects.(blueprint for an object)
+-------------Object is a container(storage), which store the key-value pairs in it with different types of properties.
+
+
+--->what is constructor and initilizer?
+
+...what is programming langague?
+what is data types
+
+
+
+
+
+
+
+

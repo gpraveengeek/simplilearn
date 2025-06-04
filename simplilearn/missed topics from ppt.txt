@@ -1,0 +1,70 @@
+SIMPLILEARN
+MISSED TOPICS FROM PPT
+
+--->Data Types in JavaScript
+1)Primitive data type
+2) Non-Primitive data type
+
+--->Non-Primitive (Objects)
+
+--->Objects Creation
+
+--->Data Type Conversion
+
+--->Operators
+ 1 Arithmetic operators
+2 Assignment operators
+3 Comparison operators
+4 String operators
+5 Logical operators
+6 Bitwise operators
+7 Ternary operators
+8 Type operators
+
+1) Arithmetic operators
+           -- The Modulus operator (%)
+           -- The Exponentiation operator (**)
+3) Comparison Operators
+7) Ternary operator ( ? )
+6)Bitwise Operators
+          --AND (&)
+          --NOT (~)
+          --Left shift (<<)
+          --Unsigned right shift (>>>)
+          --OR (|)
+          --XOR (^)
+          --Right shift (>>)
+8) Type operators
+          --typeof
+          --instanceof
+
+--->Operator Precedence and Associativity
+
+--->Expression
+          --Arithmetic expressions
+          --String expressions
+          --Logical expressions
+          --Comparison expressions
+
+--->Statement
+          --Assignment statement
+          --Conditional statements
+          --Loop statements
+          --Function declaration
+          --Variable declaration
+
+
+
+
+
+
+---> LOOPINGS
+1) ForIn
+2) ForOf
+
+
+
+
+
+
+
