@@ -20,8 +20,69 @@ JAVASCRIPT:
 
 --->what is constructor and initilizer?
 
-...what is programming langague?
-what is data types
+--->what is programming langague?
+
+--->what is data types?
+
+--->OOPs-Object-Oriented Programming.
+                  Procedural programming is about writing procedures or methods that perform operations on the data, while object-oriented programming is about creating objects that contain both data and methods.
+
+advantages over procedural programming:
+-OOP is faster and easier to execute.
+-OOP provides a clear structure for the programs.
+-OOP helps to keep the Java code DRY "Don't Repeat Yourself", and makes the code easier to maintain, modify and debug.
+-OOP makes it possible to create full reusable applications with less code and shorter development time.
+
+--Tip: The "Don't Repeat Yourself" (DRY) principle is about reducing the repetition of code. You should extract out the codes that are common for the application, and place them at a single place and reuse them instead of repeating it.
+
+examples: on Class and Object
+
+               CLASS                                              OBJECT
+
+                                                                          apple
+1)               fruit                                                 banana
+                                                                          mango
+
+                                                                           volvo                    
+2)               car                                                     audi
+                                                                           toyota
+
+--When the individual objects are created, they inherit all the variables and methods from the class.
+
+--->DOM & BOM;
+
+Document Object Model (DOM) :
+                                                    It is a programming interface for HTML and XML documents, that allows to create, manipulate, or delete the element from the document. It defines the logical structure of documents and the way a document is accessed and manipulated. With the help of DOM, the webpage can be represented in a structured hierarchy, i.e., we can easily access and manipulate tags, IDs, classes, Attributes, or Elements of HTML using commands or methods provided by the Document object, that will guide the programmers and users to understand the document in an easier manner.
+
+HTML is used to structure the web pages and JavaScript is used to add behavior to our web pages. When an HTML file is loaded into the browser, the javascript can not understand the HTML document directly. So, a corresponding document is created(DOM). DOM is basically the representation of the same HTML document but in a different format with the use of objects. DOM provides several methods to find & manipulate the behavior of the HTML element:
+
+-getElementById() Method: This method returns the elements that have given an ID which is passed to the function.
+-getElementsByClassName() Method: This method in Javascript returns an object containing all the elements with the specified class names in the document as objects: This
+-getElementsByName() Method: This method returns the collection of all elements of a particular document by name. 
+-getElementsByTagName() Method: This method in HTML returns the collection of all the elements in the document with the given tag name.
+-querySelector() Method: This method in HTML is used to return the first element that matches a specified CSS selector(s) in the document.
+-querySelectorAll() Method: This method is used to return a collection of an element’s child elements that match a specified CSS selector(s), as a static NodeList object.
+
+
+Browser Object Model (BOM) :
+                                                  It is a browser-specific convention referring to all the objects exposed by the web browser. The BOM allows JavaScript to “interact with” the browser. The window object represents a browser window and all its corresponding features. A window object is created automatically by the browser itself. Java Script’s window.screen object contains information about the user’s screen. It can also be written without the window prefix. This Object Model supports the following Window properties:
+
+-screen.width: The screen.width property returns the user’s screen width in pixels.
+-screen.height: The screen.height property returns the user's screen height in pixels.
+-screen.availWidth: The screen.availWidth property returns the user's screen width in pixels, excluding the interface features. 
+-screen.availHeight: The screen.availHeight property returns the user's screen height in pixels excluding the interface features.
+-screen.colorDepth: The screen.colorDepth property returns the bits (number) to be used to display one color.
+-screen.pixelDepth: The screen.pixelDepth property returns the pixel depth of the screen.
+
+---The BOM also supports the following Window methods:
+
+-window.open() Method: This method is used to open a new tab or window with the specified URL and name. 
+-window.close() Method: This method, is used for closing a certain window or tab of the browser which was previously opened by the window.open() method.
+-window.moveTo() Method: This method is used in the window to move the window from the left and top coordinates.
+-window moveBy() Method: This method is used for moving a window with a specified number of pixels relative to its current coordinates.
+-window.resizeTo() Method: This method is used to resize a window to the specified width and height. 
+
+
 
 
 
