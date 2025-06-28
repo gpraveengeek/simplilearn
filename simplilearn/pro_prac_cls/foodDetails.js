@@ -20,6 +20,7 @@ function loadFoodDetails() {
         foodDetailsInformation = foodDetails; // Store the food details in a global variable
        // console.log(foodDetails);
         //console.log(foodDetails.length);
+        // -----------------------------------------------------------------------------
         // append the food details to the body of the document as string 
         // let output ="";
         // for(let i=0;i<foodDetails.length;i++){
@@ -27,7 +28,7 @@ function loadFoodDetails() {
         //     output += foodDetails[i].id+", "+foodDetails[i].name+"<img src='"+foodDetails[i].image+"' width='100px' height='100px'/>   <br/>"
         // }
         // document.getElementsByTagName("body")[0].innerHTML=output
-
+        // ----------------------------------------------------------------------------------
         for(let i=0;i<foodDetails.length;i++){
             let foodItem = document.createElement("div");
             foodItem.setAttribute("class", "food-item");
@@ -47,9 +48,6 @@ function loadFoodDetails() {
     //     name 
     //     is 
     // ${name}
-    //'    
-
-    }).
-    catch(error=>console.error("Error fetching food details:", error));
-    
+    //'   
+    }).catch(error=>console.error("Error fetching food details:", error));
 }
